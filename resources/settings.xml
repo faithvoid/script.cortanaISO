@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+
+<settings>
+
+    <category label="Settings">
+    	<setting type="lsep" label="General" />
+        <setting id="DEFAULT_FOLDER" type="folder" label="Default Folder (ISO/XISO)" default="" />
+        <setting id="DEFAULT_FOLDER_HDD" type="folder" label="Default Folder (HDD)" default="" />
+        <setting id="DEFAULT_FOLDER_VIDEO" type="folder" label="Default Folder (Video)" default="" />
+        <setting id="DEFAULT_FOLDER_MUSIC" type="folder" label="Default Folder (Music)" default="" />
+        <setting id="USE_HDD" type="bool" label="Save to HDD" default="false" />
+        <setting id="USE_XISO" type="bool" label="Save as XISO" default="false" />
+        <setting id="CREATE_ATTACHER" type="bool" label="Create Attacher .XBE (ISO/XISO)" default="true" />
+        <setting id="BACKGROUND_MODE" type="bool" label="Rip in Background" default="false" />
+        <setting id="NOTIFICATION_PERCENT" type="text" label="Notification %" default="5" />
+    </category>
+
+    <category label="ISO">
+    	<setting type="lsep" label="ISO Settings" />
+        <setting id="ISO_SECTOR_SIZE" type="text" label="Sector Size" default="2048" />
+        <setting id="MAX_RETRIES" type="text" label="Max Retries" default="3" />
+        <setting id="BUFFER_SECTORS" type="text" label="Buffer Sectors" default="16" />
+    </category>
+
+    <category label="XISO">
+    	<setting type="lsep" label="XISO Settings" />
+    </category>
+
+    <category label="HDD">
+    	<setting type="lsep" label="HDD Settings" />
+    </category>
+
+      <category label="Media">
+    	<setting type="lsep" label="Media Settings" />
+    </category>
+
+</settings>
