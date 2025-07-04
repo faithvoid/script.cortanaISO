@@ -9,3 +9,4 @@ Disc utility for XBMC4Xbox.
 ## Planned:
 - ACL patches (or something like them) for games that don't play nicely with FATX character limits.
 - XISO support (aiming for "rebuilt" mode at minimum)
+- Media detection and automatic ripping
